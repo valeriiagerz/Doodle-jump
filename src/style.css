@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.grid {
+  background-image: url('background.png');
+  height: 600px;
+  width: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  text-shadow: 2px 2px 2px;
+  color: rgb(82, 21, 21);
+}
+
+.button {
+  outline: black solid 1px;
+  width: 110px;
+  padding: 0 20px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+  color: rgb(54, 25, 25);
+  background-color: red;
+  box-shadow: 2px 2px 2px;
+  border-radius: 15px;
+  line-height: 30px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: blue;
+  box-shadow: 10px 10px 10px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-image: linear-gradient(green, rgb(23, 64, 84));
+  box-shadow: 5px 5px 5px;
+}
+
+.doodler {
+  width: 85px;
+  height: 85px;
+  background-image: url('doodler-guy.png');
+  position: absolute;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  border-radius: 20px;
+  background-image: url('platform.png');
+}
